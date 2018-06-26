@@ -69,6 +69,10 @@ struct Config {
         return discordRoot["JRChannels"] as! [String]
     }()
     
+    static let hypSportsChannels: [String] = {
+        return discordRoot["HYPChannels"] as! [String]
+    }()
+    
     static let discordToken: String = {
         let token = "\(discordRoot["Token"]!)"
         if token.count == 0 { print("Warning: Discord token not set!") }

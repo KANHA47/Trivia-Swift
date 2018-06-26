@@ -6,6 +6,10 @@
 	<dict>
 		<key>Token</key>
 		<string></string>
+		<key>HYPChannels</key>
+		<array>
+			<string></string>
+		</array>
 		<key>JRChannels</key>
 		<array>
 			<string></string>

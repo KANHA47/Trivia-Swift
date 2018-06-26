@@ -20,6 +20,9 @@ class TSSegue: NSStoryboardSegue {
             case "joyrideSegue":
                 discordShowVC.discordTrivia = DiscordTrivia(triviaShow: .joyride)
                 discordShowVC.showTitle.stringValue = "Joyride"
+            case "hypSportsSegue":
+                discordShowVC.discordTrivia = DiscordTrivia(triviaShow: .hypSports)
+                discordShowVC.showTitle.stringValue = "HypSports"
             default:
                 return
             }

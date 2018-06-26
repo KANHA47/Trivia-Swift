@@ -22,6 +22,7 @@ enum TriviaShow {
     case hq
     case cashShow
     case joyride
+    case hypSports
 }
 
 class DiscordTrivia: DiscordDelegate, DiscordTriviaNotifyDelegate {
@@ -41,6 +42,8 @@ class DiscordTrivia: DiscordDelegate, DiscordTriviaNotifyDelegate {
                 break
             case .joyride:
                 triviaChannels = Config.joyrideChannels
+            case .hypSports:
+                triviaChannels = Config.hypSportsChannels
                 break
             default:
                 break
