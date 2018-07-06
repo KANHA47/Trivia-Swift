@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3F0C5CFC2080136000D030F4 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C5CFB2080136000D030F4 /* Config.plist */; };
+		3F23D58F20E2E05700BD9A75 /* OCRVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F23D58E20E2E05700BD9A75 /* OCRVC.swift */; };
+		3F23D59020E2E05B00BD9A75 /* OCRVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F23D58E20E2E05700BD9A75 /* OCRVC.swift */; };
 		3F270606208A65AE00B37FB0 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F270605208A65AE00B37FB0 /* Question.swift */; };
 		3F43614E209A46C500FB055F /* DiscordTriviaTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43614D209A46C500FB055F /* DiscordTriviaTest.swift */; };
 		3F436151209A733600FB055F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FB7152203B5304004F7787 /* ViewController.swift */; };
@@ -103,6 +105,7 @@
 /* Begin PBXFileReference section */
 		20247DD312656466DE5356BB /* Pods_Trivia_SwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trivia_SwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0C5CFB2080136000D030F4 /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		3F23D58E20E2E05700BD9A75 /* OCRVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRVC.swift; sourceTree = "<group>"; };
 		3F270605208A65AE00B37FB0 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		3F36C76F208A3321002A7D5C /* questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
 		3F43614D209A46C500FB055F /* DiscordTriviaTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscordTriviaTest.swift; sourceTree = "<group>"; };
@@ -332,6 +335,7 @@
 				3F6703312090C9F4002B1863 /* Discord */,
 				3F8936A42093D0D5008C8719 /* DiscordTrivia.swift */,
 				3FE9730A208E8605000E1FF2 /* Model */,
+				3F23D58E20E2E05700BD9A75 /* OCRVC.swift */,
 				F8FB7150203B5304004F7787 /* AppDelegate.swift */,
 				3F9576A120CCA22200F26EDA /* TSSegue.swift */,
 				3F4400FB209B8CD400A73938 /* DiscordShow.swift */,
@@ -603,6 +607,7 @@
 				3F6703502090C9F4002B1863 /* MessageModel.swift in Sources */,
 				3F6703662090C9F4002B1863 /* WebsocketAPIManager.swift in Sources */,
 				3F6703742090C9F4002B1863 /* URLEndpoints.swift in Sources */,
+				3F23D59020E2E05B00BD9A75 /* OCRVC.swift in Sources */,
 				3F51794D208A25C90025AF9F /* AppDelegate.swift in Sources */,
 				3F67035C2090C9F4002B1863 /* WebsocketHelloMessageModel.swift in Sources */,
 				3F6703602090C9F4002B1863 /* GatewayUrlResponseModel.swift in Sources */,
@@ -652,6 +657,7 @@
 				3F8936A52093D0D5008C8719 /* DiscordTrivia.swift in Sources */,
 				3F67034F2090C9F4002B1863 /* MessageModel.swift in Sources */,
 				F86D1F75203BB5CE00D01A65 /* WindowController.swift in Sources */,
+				3F23D58F20E2E05700BD9A75 /* OCRVC.swift in Sources */,
 				3F6703612090C9F4002B1863 /* WebsocketReadyMessageModel.swift in Sources */,
 				3F6703552090C9F4002B1863 /* SendMessageRequest.swift in Sources */,
 				3FE9730C208E8629000E1FF2 /* Answer.swift in Sources */,
@@ -845,6 +851,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ninovitale.TriviaSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -861,6 +868,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ninovitale.TriviaSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
