@@ -65,8 +65,8 @@ If you need any help, please open an issue and I will assist you.
 
 ## TODO:
 - [x] Crowdsource answers from Discord trivia server for a second opinion.
-- [ ] Add OCR support for games that do not have a public websocket.
-- [ ] Support more trivia games.
+- [x] Add OCR support for games that do not have a public websocket *EXPERIMENTAL, press cmd+5 or go to File > New OCR Window to use this feature*.
+- [x] Support more trivia games.
 - [ ] Improve HQ accuracy and add additional algorithms for searching.
 - [ ] Adapt the program to run on iOS devices.
 

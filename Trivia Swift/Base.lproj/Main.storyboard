@@ -949,7 +949,7 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <stackView distribution="fill" orientation="vertical" alignment="centerX" spacing="22.5" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hmm-AL-CYH">
+                            <stackView hidden="YES" distribution="fill" orientation="vertical" alignment="centerX" spacing="22.5" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hmm-AL-CYH">
                                 <rect key="frame" x="562" y="105" width="120" height="135"/>
                                 <subviews>
                                     <box boxType="custom" borderWidth="0.0" cornerRadius="15" title="Box" translatesAutoresizingMaskIntoConstraints="NO" id="HSs-71-7IB" userLabel="A1">
