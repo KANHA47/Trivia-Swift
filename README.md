@@ -21,7 +21,7 @@ Trivia Swift will **always** be free and open-source. No hidden fees, no monthly
 ## How to use:
 - Download the repo/clone it.
 - **Enter your Google API key and Google Search Engine ID in `Config-default.plist` (this is required; otherwise, it cannot answer HQ questions!).**
-- **Add your [Discord token](https://github.com/TheRacingLion/Discord-SelfBot/wiki/Discord-Token-Tutorial) and add the IDs of the channels you want to monitor for each show in `Config-default.plist`.**
+- **Add your [Discord token](https://discordhelp.net/discord-token) and add the IDs of the channels you want to monitor for each show in `Config-default.plist`.**
 - Run a `pod install` to make sure everything is up to date
 - Build and run the project. 
 - For HQ: if you start it before the game is live, Trivia Swift will show you the time of the next live show and the corresponding prize. Once the game is live, click the "HQ" label at the top of the window. It will connect and display the questions and answers as they are presented during the live show.
